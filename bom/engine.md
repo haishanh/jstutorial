@@ -346,11 +346,11 @@ JavaScript是一种解释型语言，也就是说，它不需要编译，可以�
 
 字节码不能直接运行，而是运行在一个虚拟机（Virtual Machine）之上，一般也把虚拟机称为JavaScript引擎。因为JavaScript运行时未必有字节码，所以JavaScript虚拟机并不完全基于字节码，而是部分基于源码，即只要有可能，就通过JIT（just in time）编译器直接把源码编译成机器码运行，省略字节码步骤。这一点与其他采用虚拟机（比如Java）的语言不尽相同。这样做的目的，是为了尽可能地优化代码、提高性能。下面是目前最常见的一些JavaScript虚拟机：
 
-- [Chakra](http://en.wikipedia.org/wiki/Chakra_(JScript_engine\))(Microsoft Internet Explorer)
+- [Chakra](http://en.wikipedia.org/wiki/Chakra_(JScript_engine))(Microsoft Internet Explorer)
 - [Nitro/JavaScript Core](http://en.wikipedia.org/wiki/WebKit#JavaScriptCore) (Safari)
 - [Carakan](http://dev.opera.com/articles/view/labs-carakan/) (Opera)
 - [SpiderMonkey](https://developer.mozilla.org/en-US/docs/SpiderMonkey) (Firefox)
-- [V8](http://en.wikipedia.org/wiki/V8_(JavaScript_engine\)) (Chrome, Chromium)
+- [V8](http://en.wikipedia.org/wiki/V8_(JavaScript_engine)) (Chrome, Chromium)
 
 ## 单线程模型
 
